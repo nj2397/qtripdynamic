@@ -11,7 +11,7 @@ async function init() {
 
 //Implementation of fetch call
 async function fetchCities() {
-  // TODO: MODULE_CITIES
+ 
   // 1. Fetch cities using the Backend API and return the data
   try {
     const response = await fetch(config.backendEndpoint + "/cities");
@@ -26,7 +26,7 @@ async function fetchCities() {
 
 //Implementation of DOM manipulation to add cities
 function addCityToDOM(id, city, description, image) {
-  // TODO: MODULE_CITIES
+  
   // 1. Populate the City details and insert those details into the DOM
   const elem = document.getElementById("data");
   const childElem = document.createElement("div");
